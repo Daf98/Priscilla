@@ -11,28 +11,24 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
-
     Hello Camper!
-
     For now, the test suite only works in Chrome!
     Please read the README below in the JS Editor before beginning.
     Feel free to delete this message once you have read it.
     Good luck and Happy Coding!
-
     - The freeCodeCamp Team
-
     -->
     <h1 id="title">Title</h1>
     <p id="description">Explanation</p>
     <form id="survey-form">
-      <label>First name: </label><br>
-     <input type="text" id="name" name="name" required></input>
+      <label id="name-label">First name: </label><br>
+     <input type="text" id="name"  required></input>
     <input type="submit" name="name"></input><br>
-    <label>Email: </label><br>
-    <input type="email" id="email" name="name" required></input>
+    <label id="email-label">Email: </label><br>
+    <input type="email" id="email" name="name"  required></input>
     <input type="submit" name="email"></input><br>
-<label>phonenumber: </label><br>
-    <input type="number" id="number" name="number" ></input>
+<label id="number-label">phonenumber: </label><br>
+    <input type="number" min="0" max="50" id="number" name="number" ></input>
     <input type="submit" name="number"></input><br>
 </form>
     
